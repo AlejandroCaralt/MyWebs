@@ -1,2 +1,2 @@
 # MyWebs
-<img src="img/exp.jpg" >
+<img src="web/img/exp.jpg" >

@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5em;
+}
+@font-face {
+  font-family: "Sweet Hipster";
+  src:url("fonts/sweet.ttf");
+}
+@font-face{
+  font-family: "Roman";
+  src:url("fonts/roman.ttf");
+}
+@font-face{
+  font-family: "Bebas";
+  src:url("fonts/bebas.ttf"),url("fonts/bebas.otf");
+}
+@font-face{
+  font-family: "LED";
+  src:url("fonts/LED.ttf");
+}
+@font-face{
+  font-family: "Ancient";
+  src:url("fonts/ancient.ttf");
+}
+@font-face{
+  font-family: "LM";
+  src:url("fonts/LM.otf");
+}
+@font-face{
+  font-family: "LCD";
+  src:url("fonts/LCD.ttf"),url("fonts/LCD.fon");
+}
+@font-face{
+  font-family: "Rounde";
+  src:url("fonts/rounde.ttf");
+}
+@font-face{
+  font-family: "God";
+  src:url("fonts/god.ttf");
+}
+@font-face{
+  font-family: "Comm";
+  src:url("fonts/comm.ttf");
+}
+
+
+
+
+
+
+
+
+
+
+#index {
+  background: url("img/indice/img1.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1300px;
+  min-width: 2100px;
+}
+#pag2 {
+  background: url("img/pag2/img2.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1700px;
+  min-width: 2100px;
+}
+#pag3 {
+  background: url("img/pag3/img3.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1700px;
+  min-width: 2100px;
+}
+#pag4 {
+  background: url("img/pag4/img4.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1700px;
+  min-width: 2100px;}
+#pag5 {
+  background: url("img/pag5/img5.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1300px;
+  min-width: 2100px;
+}
+#php {
+  background: url("img/indice/img1.jpg") no-repeat fixed ;
+  background-size: cover;
+  background-color: black;
+  min-height: 1300px;
+  min-width: 2100px;
+}
+
+
+
+
+
+
+
+.headr {
+  font-family: "God";
+  height: 100%;
+  float: left;
+  color: #fff;
+  border-right: 3px solid rgb(50,50,50);
+}
+.cuerpo {
+  margin:4%;
+  background-color: rgba(255,255,255,0.3);
+  height: 100%;
+  padding-top: 20px;
+  font-family: "Bebas";
+}
+.text {
+  margin: 50px 75px;
+  background-color: rgba(255,255,255,0.7);
+  border:1px solid black;
+}
+#index .text{
+  background-color: rgba(255,255,255,0.3);
+}
+#easycodeeasylife {
+  display: none;
+  background-image: url("img/indice/3080752-9k_682d.jpg");
+}
+.text h1 {
+  background-color: rgba(50,50,50,1);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid black;
+  color: #fff;
+  font-family: "LED";   
+}
+.text p {
+  font-family: "Angle";
+  color:rgb(100,100,100);
+  font-size: 18px;
+}
+
+
+
+.imgbox {
+  width: 400px;
+  height: 300px;
+}
+.grid-container {
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-gap: 10px;
+}
+
+
+
+
+
+
+
+.banner {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/indice/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+.banner img {
+  height: 100%;
+  margin-top: 50px;
+}
+
+
+
+
+
+#pag3 .grid-container {
+  grid-template-columns: 33% 33% 33%;
+}
+#pag3 .imgbox {
+  width: 600px;
+  height: 300px;
+}
+
+
+.imgbanner {
+  width: 1800px;
+  height: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+table, tr, th {
+  width: 99%;
+  height: 30px;
+  border:2px groove black;
+  margin: 10px;
+  border-collapse: collapse;
+  background-color: rgba(100,100,100,0.5);
+}
+table {
+  border:3px groove black;
+}
+#tablet-head {
+  height: 60px;
+  font-size: 30px;
+}
+#tablet-head:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+tr img {
+  width: 100px;
+  height: 40px;
+}
+.colum1 {
+  width: 30%;
+}
+.colum2{
+  width: 60%;
+}
+.colum3 {
+  width: 10%
+}
+
+.impar {
+  background-color: white;
+}
+tr:hover {
+  background-color: rgba(0,0,0,0.8);
+  font-size: 30px;
+  padding: -10px;
+}
+
+
+
+#pag4 .grid-container {
+  position: relative;
+}
+#pag4 .grid-container  a{
+  cursor: zoom-in;
+}
+
+.target {
+  top: 500px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border:2px solid black;
+  display: none;
+}
+
+.target:target {
+  display: initial;
+  cursor: zoom-out;
+}
+
+#pag5 a {
+  text-decoration: none;
+  color: black;
+}
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: #888;
+}
+
+
+
+form{
+  font-family: "Angle";
+}
+
+
+
+.menu {
+  
+  background-color: rgb(128,0,0);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  border-bottom: 3px solid rgb(50,50,50);
+  top: 0;
+}
+.box {
+  font-family: "Bebas";
+  position:relative;
+  float: right;
+  font-size:25px;
+  border-left:3px solid rgb(50,50,50);
+}
+.menu a:link, a:visited {
+  background-color: rgb(150,0,0);
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+.menu a:hover {
+  transition: all 0.5s;
+  background-color: rgba(255,0,0,0.5);
+}
+.menu a:active {
+  color:#888;
+}
